@@ -1,0 +1,27 @@
+{
+  "name": "webtasker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "author": "matyk",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "bulma": "^0.8.1",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}

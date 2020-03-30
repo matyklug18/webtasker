@@ -1,0 +1,12 @@
+{
+  "matyk": {
+    "hash":"957af229d0e0b6f3339a42f1da350c8af4e4dfb57bbba4af24f74749513bafc53562ef08a27db33d109b2923d11c07fed1288a099ff099604df409188955a4cb",
+    "salt": "2da8aad49c60419312b36afb75fdfddd",
+    "admin": true
+  },
+  "mikes": {
+    "hash": "6d3ee415f122b48a563be2df30525bf4e0a72cc3d266fab3b37c63eb32b2aabcc545f524d04d053032e3c3e79088484be4b1f782da09ba0638bd8e6ce4d8fc58",
+    "salt": "ea046fb643b3ecfe599056a0f8194c2d",
+    "admin": false
+  }
+}
