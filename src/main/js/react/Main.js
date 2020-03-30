@@ -23,7 +23,7 @@ class Main extends React.Component {
     }
 
     render() {
-        return <div class={"logged_"+Cookies.get("admin")}>
+        return <div className={"logged_"+Cookies.get("admin")}>
                 <h1>{Cookies.get("logged") == "1" ? "Vítejte zpátky, " + Cookies.get("username") + " !": "Prosím, přihlašte se." }</h1>
                 {this.items.map((item, index) => (
                     <Item key={index} item={item} />
